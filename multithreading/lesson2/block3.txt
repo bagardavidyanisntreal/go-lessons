@@ -1,0 +1,15 @@
+2. Заглянем "под капот" (Scheduler, GC и память)
+
+- что это и зачем нужно?
+- как устроен (разница подхода между кооперативным и вытесняющим процессами)
+- принцип работы GC в GO
+- memory management in nutshell
+
+Статьи и видео:
+
+ - https://www.kelche.co/blog/go/golang-scheduling/
+ - https://deepu.tech/memory-management-in-golang/
+ - https://habr.com/ru/articles/743266/
+ - https://habr.com/ru/articles/502506/
+ - https://youtu.be/rloqQY9CT8I
+ - https://www.youtube.com/watch?v=G1SP9uDJD0g

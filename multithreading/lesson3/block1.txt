@@ -1,0 +1,19 @@
+Продвинутый инструментарий многопоточной работы в GO
+
+1. pipeline (generator, fan-IN, fan-OUT)
+
+- что такое конвейер (pipeline) и с чем может помочь?
+- начало этапы и конец
+- возможность расщепление и слияние в один поток
+- проблемы ошибок на участках и прерывания дальнейшей работы
+- слаженная работа без перерасхода ресурса (единый контекст)
+- context.Context как мощнейший инструмент работы во множестве потоков
+
+Статьи и видео:
+
+- https://go.dev/blog/pipelines
+- https://github.com/Konstantin8105/Go-pipelines
+- https://pkg.go.dev/context
+- https://habr.com/ru/companies/nixys/articles/461723/
+- https://youtu.be/Fjkckov4F38
+- https://youtu.be/x6vBvgKGvxU

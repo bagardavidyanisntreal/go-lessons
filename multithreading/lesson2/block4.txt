@@ -1,0 +1,22 @@
+3. Примитивы синхронизации (Mutex, WaitGroup, Once, Atomics)
+
+- мьютексы, различия sync.Mutex и sync.RWMutex
+
+(задачи на работу с горуринами и разделённым участком памяти, с конкурентным доступом к нему, на чтение и на запись
+
+- sync.WaitGroup что помогает решать
+
+- Atomics, и жить становится легко
+
+- sync.Once, зачем нужен, когда можно обойтись без него (глобальные переменные пакетов)
+
+Статьи и видео:
+
+ - https://go.dev/tour/concurrency/9
+ - https://habr.com/ru/articles/271789/
+ - https://gobyexample.com/waitgroups
+ - https://habr.com/ru/articles/744822/
+ - https://gobyexample.com/atomic-counters
+ - https://pkg.go.dev/sync
+ - https://pkg.go.dev/sync#example-Once
+ - https://pkg.go.dev/sync#Cond

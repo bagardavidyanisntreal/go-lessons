@@ -1,0 +1,14 @@
+2. Ratelimiter, Errgroup, Worker-Pool/Sync-Pool
+
+- стараемся ограничить доступ по разным причинам
+- выполняем операции параллельно и завершаем также если что-то где-то пойдёт не так
+- в попытках сэкономить ресурсы разными способами
+
+Статьи и видео:
+
+ - https://gobyexample.com/rate-limiting
+ - https://youtu.be/tSjnf6l8cq8
+ - https://pkg.go.dev/golang.org/x/sync/errgroup
+ - https://gobyexample.com.ru/worker-pools
+ - https://habr.com/ru/articles/277137/
+
